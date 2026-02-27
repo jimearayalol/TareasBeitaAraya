@@ -1,8 +1,8 @@
-def saludo (nombre):
-    mensaje = "hola" +nombre
-    return (mensaje)
+def saludo(nombre):
+    mensaje = "hola " + nombre
+    return mensaje
 
 
-nombre ="Sebas"
+nombre = "Sebas"
 a = saludo(nombre)
-print (a)
+print(a)
